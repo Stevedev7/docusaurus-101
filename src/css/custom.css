@@ -1,0 +1,45 @@
+:root {
+  /* Light Theme - Straw Hat Colors */
+  --ifm-color-primary: #D22026;
+  --ifm-color-primary-dark: #B31C21;
+  --ifm-color-primary-darker: #94181C;
+  --ifm-color-primary-darkest: #751417;
+  --ifm-color-primary-light: #EB242B;
+  --ifm-color-primary-lighter: #FF2B32;
+  --ifm-color-primary-lightest: #FF4047;
+  
+  --ifm-link-color: #1A5F9E; 
+  --ifm-menu-color-active: #F9D71C;
+  --docusaurus-highlighted-code-line-bg: rgba(249, 215, 28, 0.15);
+}
+
+[data-theme='dark'] {
+  /* Dark Theme - Night Mode Adventure */
+  --ifm-color-primary: #F9D71C;
+  --ifm-color-primary-dark: #E0C219;
+  --ifm-color-primary-darker: #C7AD16;
+  --ifm-color-primary-darkest: #AE9813;
+  --ifm-color-primary-light: #FFE53D;
+  --ifm-color-primary-lighter: #FFEA55;
+  --ifm-color-primary-lightest: #FFEF6E;
+  
+  --ifm-link-color: #D22026;
+  --docusaurus-highlighted-code-line-bg: rgba(210, 32, 38, 0.2);
+}
+
+/* Secondary Colors */
+:root {
+  --ifm-color-secondary: #703B1D;
+  --ifm-color-success: #1A5F9E;
+}
+
+/* Pirate-themed Components */
+.alert--warning {
+  --ifm-alert-background-color: #F9D71C33;
+  border-left-color: #F9D71C;
+}
+
+.navbar {
+  background-color: #D22026 !important;
+  border-bottom: 3px solid #F9D71C;
+}
